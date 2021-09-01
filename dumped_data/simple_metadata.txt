@@ -1,0 +1,45 @@
+
+taichi aot data: {
+  kernels: [
+    [0]: {
+      name: run_c4_0_k0008_vk
+      is_jit_evaluator: false
+      tasks_attribs: [
+        [0]: {
+          name: run_c4_0_k0008_vk_t00
+          advisory_total_num_threads: 8
+          advisory_num_threads_per_group: 8
+          task_type: 1
+          buffer_binds: [
+            [0]: {
+              type: 0
+              binding: 0
+            }
+            [1]: {
+              type: 1
+              binding: 1
+            }
+          ]
+          range_for_attribs: {
+            has_value: true
+            value: {
+              begin: 0
+              end: 8
+              const_begin: true
+              const_end: true
+            }
+          }
+        }
+      ]
+      ctx_attribs: {
+        arg_attribs_vec_: [
+        ]
+        ret_attribs_vec_: [
+        ]
+        args_bytes_: 0
+        rets_bytes_: 0
+        extra_args_bytes_: 256
+      }
+    }
+  ]
+}
